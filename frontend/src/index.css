@@ -1,0 +1,80 @@
+@import "tailwindcss";
+@theme {
+  --breakpoint-3xl: 120rem; /* 1920px */
+}
+
+@plugin "daisyui" {
+  themes: nord --default, dark --prefersdark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.perserve-line-breaks {
+  white-space: pre-wrap;
+}
+
+@font-face {
+    font-family: 'Wotfard Regular';
+    src: url('./fonts/wotfard-regular-webfont.eot');
+    src: url('./fonts/wotfard-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/wotfard-regular-webfont.woff2') format('woff2'),
+         url('./fonts/wotfard-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wotfard-regular {
+  font-family: "Wotfard Regular", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.wotfard-bold {
+  font-family: "Wotfard Regular", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.gorditas-regular {
+  font-family: "Gorditas", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gorditas-bold {
+  font-family: "Gorditas", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.schoolbell-regular {
+  font-family: "Schoolbell", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.concert-one-regular {
+  font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.open-sans-regular {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.open-sans-bold {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
